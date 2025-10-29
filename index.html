@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#home" class="logo">Meta Coder</a>
+        
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="home">
+        <div class="container">
+            <div class="intro-content">
+                <div class="intro-text">
+                    <h1 class="intro-headline">
+                        <span class="typewriter">Code. Create. Innovate.</span>
+                    </h1>
+                    <p class="intro-subtitle">Front-End Developer & UI Specialist</p>
+                    <a href="#projects" class="cta-button">See My Projects</a>
+                </div>
+                
+                <div class="intro-image">
+                    <div class="image-container">
+                        <img src="assets/img/home/img1-350x350.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I'm a passionate Front-End Developer with expertise in creating modern, responsive web applications. I love turning complex problems into simple, beautiful designs.</p>
+                    <p>With a keen eye for detail and a commitment to excellence, I strive to create digital experiences that are both functional and visually appealing.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-container" style="width: 300px; height: 300px;">
+                        <img src="assets/img/about/img2-300x300.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="skills-container">
+                <h2>My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon"><img src="assets/img/skills/front-end.png" height="96px" width="96px">  <!--64x64(recommended) or 80x80 or 96x96--></div>
+                        <h3>Front-End</h3>
+                        <p>HTML5, CSS, JavaScript, React, Vue.js</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><img src="assets/img/skills/ui-ux-design-3d-icon-png-download-12690720.webp" height="96px" width="96px">  <!--64x64(recommended) or 80x80 or 96x96--> </div>
+                        <h3>UI / UX Design</h3>
+                        <p>Figma, Adobe XD, Responsive Design</p>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon"><img src="assets/img/skills/quick-maintenance-3d-icon-png-download-4863009.webp" height="96px" width="96px">  <!--64x64(recommended) or 80x80 or 96x96--> </div>
+                        <h3>Tools</h3>
+                        <p>GitHub, Webpack, npm, VS Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="projects-container">
+                <h2>My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            Project 1
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Website</h3>
+                            <p>A modern e-commerce platform built with React and Node.js featuring user authentication and payment integration.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            Project 2
+                        </div>
+                        <div class="project-info">
+                            <h3>Task Management App</h3>
+                            <p>A responsive task management application with drag-and-drop functionality and real-time updates.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            Project 3
+                        </div>
+                        <div class="project-info">
+                            <h3>Weather Dashboard</h3>
+                            <p>An interactive weather dashboard with location-based forecasts and beautiful data visualizations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span>email@metacoder.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span>+1 234 567 890</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Your City, Country</span>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="What type of website do you want?" rows="1" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Any additional info" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="social-icons">
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/instagram.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/facebook.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/github.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/whatsapp.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/youtube.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/tiktok.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/linkedin.png" height="32px" width="32px"></a>
+            <a href="#" target="_blank" class="icon"><img src="assets/img/footer/x.png" height="32px" width="32px"></a>
+        </div>
+        <p>&copy; 2024 Meta Coder<br>All Rights Reserved.<br>Term of Sevice | Privacy Policy.</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
